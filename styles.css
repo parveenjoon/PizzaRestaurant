@@ -1,0 +1,116 @@
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.menu-item img {
+    height: 200px; 
+    width: auto;
+}
+
+
+main {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* About Us */
+.about-us {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.about-us h2 {
+    margin-bottom: 30px;
+}
+
+.about-us img {
+    max-width: 100%;
+}
+
+/* Menu */
+.menu {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+}
+
+/* Gallery */
+.gallery {
+    padding: 100px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row img {
+    width: calc(20% - 8px); 
+    border: 2px solid #fff; 
+    border-radius: 5px;
+}
+/* Find Us */
+.find-us {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.find-us h2 {
+    margin-bottom: 30px;
+}
+
+
+
